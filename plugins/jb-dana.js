@@ -5,18 +5,12 @@ HayðŸ‘‹, ingin melanjutkan pembayaran?
 
 💌 *Pembayaran*
 💳 Via: Dana
-📞 Nomor: 088215689772
-👤 A/n: Fangz
-📦 Mitra: Fangz BOT
+📞 Nomor: 081385012083
+👤 A/n: mas*****
+📦 Mitra: 𝙎𝙚𝙞𝙠𝙖 𝘽𝙤𝙩𝙯𝙯
 💰 Metode pembayaran: Online ( ~Cod~ )
 
 📣 *Beli*
-
-Apk TokoBot: https://app.bukaolshop.com/toko/tokobot
-
-Apk FangzApp:https://web.jagel.id/store/fangzapp
-
-Toko Website:https://toko.ly/TokoBot   (Non apk)
 
 ✏️ _Informasi Pembayaran_
 

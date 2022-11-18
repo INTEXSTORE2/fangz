@@ -1,10 +1,10 @@
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 let text = `*${htki} DISCOUNT ${htka}*
 
-          • Ada di TokoBot •
+          • ERROR •
 `
 const templateButtons = [
-    {index: 1, urlButton: {displayText: 'Link', url: 'https://toko.ly/TokoBot'}},
+    {index: 1, urlButton: {displayText: 'Link', url: '404 NOT FOUND'}},
 ]
 let tm = {
 text: text,

@@ -39,25 +39,25 @@ handler.all = async function (m) {
 		global.adReply = {
 			contextInfo: {
 				forwardingScore: 9999,
-				//isForwarded: true, // ini biar ada tulisannya diteruskan berkali-kali, jika ingin di hilangkan ganti true menjadi false
+				//isForwarded: false, // ini biar ada tulisannya diteruskan berkali-kali, jika ingin di hilangkan ganti true menjadi false
 				externalAdReply: { // Bagian ini sesuka kalian berkreasi :'v
                     showAdAttribution: true,
 					title: global.ucapan,
 					body: wm,
 					mediaUrl: sgc,
-					description: 'Private Bot by Fangz',
+					description: 'Private Bot by 𝙄𝙔𝘼𝙉𝙉',
 					previewType: "PHOTO",
 					thumbnail: await (await fetch(urls)).buffer(),
-					sourceUrl: "https://github.com/Fangzbotz2007",					
+					sourceUrl: "https://wa.me/6281318054482",					
 				}
 			}
 		}
 		global.fakeig = {
          contextInfo: { externalAdReply: { showAdAttribution: true,
-            mediaUrl: "https://github.com/Fangzbotz2007",
+            mediaUrl: "https://instagram.com/intexstore25",
             mediaType: "VIDEO",
-            description: "https://github.com/Fangzbotz2007", 
-            title: 'Private Bot by Fangz',
+            description: "https://instagram.com/intexstore25", 
+            title: 'Private Bot by 𝙄𝙔𝘼𝙉𝙉',
             body: wm,
             thumbnailUrl: pp,
             sourceUrl: sgc
@@ -65,10 +65,10 @@ handler.all = async function (m) {
     } }
 global.fakefb = {
          contextInfo: { externalAdReply: { showAdAttribution: true,
-            mediaUrl: "https://github.com/Fangzbotz2007",
+            mediaUrl: "https://chat.whatsapp.com/JUasnSIppUK8WL1BSHWvX3",
             mediaType: "VIDEO",
-            description: "https://github.com/Fangzbotz2007", 
-            title: 'Private Bot by Fangz',
+            description: "https://chat.whatsapp.com/JUasnSIppUK8WL1BSHWvX3", 
+            title: 'Private Bot by 𝙄𝙔𝘼𝙉𝙉',
             body: wm,
             thumbnailUrl: pp,
             sourceUrl: sgc
@@ -136,7 +136,7 @@ global.fakefb = {
                                "jpegThumbnail": fs.readFileSync('./thumbnail.jpg') //Gambarnye
                            },
                            "title": wm, //Kasih namalu 
-                           "description": "Private Bot by Fangz", 
+                           "description": "Private Bot by 𝙄𝙔𝘼𝙉𝙉", 
                            "currencyCode": "USD",
                            "priceAmount1000": "20000000",
                            "retailerId": "Ghost",
@@ -169,7 +169,7 @@ global.fakefb = {
                "groupInviteMessage": {
                    "groupJid": "17608914335-1625305606@g.us",
                    "inviteCode": "null",
-                   "groupName": "Friends FANGZ BOT", 
+                   "groupName": "Friends 𝙎𝙚𝙞𝙠𝙖 𝘽𝙤𝙩𝙯𝙯", 
                    "caption": wm, 
                    'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')
                }

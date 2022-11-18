@@ -1,9 +1,9 @@
 let handler = async (m, { conn }) => {
 	//-----PRICE
 //sewa
-let sh = '5'
-let sn = '10'
-let ss = '25'
+let sh = '1'
+let sn = '5'
+let ss = '10'
 let sp = '40'
 let sv = '120'
 //premium
@@ -15,19 +15,13 @@ let ppm = '70'
 let info = `
 *${htki} sᴇᴡᴀ ${htka}*
 ┏⫹⫺ *ʜᴇᴍᴀᴛ* 
-┗$ ${sh}k/grup (1 minggu)
+┗$ ${sh}k/grup (1 hari)
 
 ┏⫹⫺ *ɴᴏʀᴍᴀʟ* 
-┗$ ${sn}k/grup (1 bulan)
+┗$ ${sn}k/grup (15 hari)
 
 ┏⫹⫺ *sᴛᴀɴᴅᴀʀ* 
-┗$ ${ss}k/grup (2 bulan)
-
-┏⫹⫺ *ᴘʀᴏ* 
-┗$ ${sp}k/grup (3 bulan)
-
-┏⫹⫺ *ᴘᴇʀᴍᴀɴᴇɴ* 
-┗$ ${sv}k/grup (Permanen)
+┗$ ${ss}k/grup (1 bulan)
 
 ──···────────────────···──
 
@@ -44,9 +38,6 @@ let info = `
 ┏⫹⫺ *ᴘʀᴏ* 
 ┗$ ${pv}k (5 bulan)                                            
 
-*📦 Kalau mau dapat discon cek website TokoBot*
-Link: https://toko.ly/TokoBot
-
 –––––– *ᴋᴇʙɪᴊᴀᴋᴀɴ* ––––––
 🗣️: Kak, Kok harganya mahal banget?
 💬: Mau tawar menawar? boleh, silahkan chat owner aja.. max tawar 5k
@@ -60,11 +51,9 @@ const sections = [
    {
 	title: `✃ sᴇᴡᴀ`,
 	rows: [
-	    {title: "𝗛𝗘𝗠𝗔𝗧", rowId: '.pay', description: '𝗣𝗿𝗶𝗰𝗲: ' + sh + 'k (1 minggu)' },
-	    {title: "𝗡𝗢𝗥𝗠𝗔𝗟", rowId: '.pay', description: '𝗣𝗿𝗶𝗰𝗲: ' + sn + 'k (1 bulan)' },
-	{title: "𝗦𝗧𝗔𝗡𝗗𝗔𝗥", rowId: '.pay', description: '𝗣𝗿𝗶𝗰𝗲: ' + ss + 'k (2 bulan)' },
-	{title: "𝗣𝗥𝗢", rowId: '.pay', description: '𝗣𝗿𝗶𝗰𝗲: ' + sp + 'k (3 bulan)' },
-	{title: "🔖 𝗩𝗜𝗣", rowId: '.pay', description: '𝗣𝗿𝗶𝗰𝗲: ' + sv + 'k (Permanen)' },
+	    {title: "𝗛𝗘𝗠𝗔𝗧", rowId: '.pay', description: '𝗣𝗿𝗶𝗰𝗲: ' + sh + 'k (1 hari)' },
+	    {title: "𝗡𝗢𝗥𝗠𝗔𝗟", rowId: '.pay', description: '𝗣𝗿𝗶𝗰𝗲: ' + sn + 'k (15 hari)' },
+	{title: "𝗦𝗧𝗔𝗡𝗗𝗔𝗥", rowId: '.pay', description: '𝗣𝗿𝗶𝗰𝗲: ' + ss + 'k (1 bulan)' },
 	]
     }, {
     title: `✃ ᴘʀᴇᴍɪᴜᴍ`,
